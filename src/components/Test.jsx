@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setBoardActive } from "../store/slices/boardsSlice";
-import Header from "../layout/header/header";
+import Header from "../layout/header/Header";
 import Center from "../layout/Center";
 import Empty from "./Empty";
 

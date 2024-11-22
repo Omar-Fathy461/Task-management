@@ -1,0 +1,61 @@
+.cover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 20px;
+
+    .heading {
+        font-size: 35px;
+        font-family: "Playfair Display", serif;
+        color: #635fc7;
+        background-image: linear-gradient(45deg, #635fc7 10%, #6A00A0 28%, #635fc7 44%, #635fc7 74%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .head-content {
+        display: flex;
+        column-gap: .5rem;
+        align-items: center;
+
+        .boardTitle {
+            font-size: 25px;
+            font-weight: 500;
+        }
+
+        .dropdown-icon {
+            width: 8px;
+            height: 8px;
+        }
+    }
+
+    .head-btns {
+        display: flex;
+        align-items: center;
+        column-gap: .5rem;
+
+        .addNewTask {
+            background-color: mediumpurple;
+            color: white;
+            font-weight: 500;
+            padding: 8px;
+            border-radius: 30px;
+        }
+
+        .addBtn {
+            background-color: mediumpurple;
+            color: white;
+            font-size: 21px;
+            width: 10px;
+            height: 10px;
+            padding: 20px;
+            border-radius: 50%;
+        }
+    }
+}

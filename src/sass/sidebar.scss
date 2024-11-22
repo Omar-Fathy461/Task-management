@@ -1,0 +1,20 @@
+.boards {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 0%;
+        height: 100%;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        background: #a19eea1a;
+        transition: width .4s ease;
+    }
+
+    &:hover::before {
+        width: 100%;
+    }
+}

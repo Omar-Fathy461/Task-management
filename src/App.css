@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* body { */
+/* background: #ADA996; */
+/* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); */
+/* Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/* } */
+
+::-webkit-scrollbar {
+    width: .6rem;
+    height: .5rem;
+    background-color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: mediumpurple;
+    border-radius: 5px;
+}
+
+.centertask {
+    /* background: rgb(18, 18, 18);
+    background: linear-gradient(0deg, rgba(18, 18, 18, 1) 0%, rgba(34, 36, 40, 1) 100%);
+
+
+    background: rgb(10, 10, 10);
+    background: linear-gradient(140deg, rgba(10, 10, 10, 1) 0%, rgba(34, 36, 40, 1) 100%);
+
+    background: rgb(10, 10, 10);
+    background: linear-gradient(140deg, rgba(10, 10, 10, 1) 53%, rgba(34, 36, 40, 1) 100%);
+
+
+    background: rgb(10, 10, 10);
+    background: linear-gradient(86deg, rgba(10, 10, 10, 1) 53%, rgba(34, 36, 40, 1) 100%);
+
+    background: rgb(10, 10, 10);
+    background: linear-gradient(132deg, rgba(10, 10, 10, 1) 53%, rgba(34, 36, 40, 1) 100%); */
+
+    background: rgb(10, 10, 10);
+    background: linear-gradient(132deg, rgba(10, 10, 10, 1) 0%, rgba(34, 36, 40, 0.119) 100%);
+}
+
+/* Custom gradient background for dark mode */
+.dark .bg-dark-gradient {
+    background: rgb(10, 10, 10);
+    background: linear-gradient(132deg, rgba(10, 10, 10, 1) 0%, rgba(34, 36, 40, 0.119) 100%);
+}
+
+.btn {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.891);
+    color: white;
+    padding: 13px 20px !important;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    transition: all .4s ease;
+}
+
+.btn:hover {
+    transform: scale(1.03) !important;
+}
+
+.loginModal,
+.signUpModal {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
